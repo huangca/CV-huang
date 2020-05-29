@@ -1,21 +1,11 @@
-/*.main-content {
-    width: 100%;
-    // Add padding top
-    padding-top: 58px;
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
-
-header {
-    background-color: #000000;
-    padding: 10px;
-    padding-left: 0;
-    padding-right: 0;
-    box-shadow: 0 5px 0 #232323;
-    text-align: center;
-    width: 100%;
-    position: fixed;
-    //   Add top 0
-    top: 0;
-}*/
 
 
 html {
@@ -155,4 +145,5 @@ footer {
 @media print {
     .pagebreak { break-before: always; } /* page-break-after works, as well */
 }
+
 
